@@ -1,0 +1,29 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<BankBranch>
+
+<table class="table">
+    <thead>
+        <td>#</td>
+        <td>Name</td>
+        <td>Location</td>
+        <td>Manager</td>
+        <td>Employee Count</td>
+    </thead>
+    <tbody>
+        @foreach(BankBranch branch in Model)
+        {
+            <tr onclick="location.href = '/Bank/Details/@branch.Id'">
+                <td>@branch.Id</td>
+                <td>@branch.LocationName</td>
+                <td>@branch.LocationURL</td>
+                <td>@branch.BranchManager</td>
+                <td>@branch.EmployeeCount</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<button class="btn btn-primary" type="button" onclick="location.href = '@Url.Action("AddBranch", "Bank")'">Add Branch</button>
