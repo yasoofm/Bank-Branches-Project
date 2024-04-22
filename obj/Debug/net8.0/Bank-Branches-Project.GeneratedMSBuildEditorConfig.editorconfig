@@ -22,8 +22,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xBZGRCcmFuY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ytman/Desktop/ASP .NET/Bank-Branches-Project/Views/Bank/AddEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xBZGRFbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ytman/Desktop/ASP .NET/Bank-Branches-Project/Views/Bank/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ytman/Desktop/ASP .NET/Bank-Branches-Project/Views/Bank/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ytman/Desktop/ASP .NET/Bank-Branches-Project/Views/Bank/Index.cshtml]

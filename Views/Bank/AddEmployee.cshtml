@@ -1,0 +1,13 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model AddEmployeeForm
+
+@* @using (Html.BeginForm("AddEmployee", "Bank",new { branchId = ViewBag.Id}, FormMethod.Post))
+ *@
+ @using (Html.BeginForm("AddEmployee", "Bank", FormMethod.Post)){
+    @Html.EditorForModel();
+    <button style="margin-top: 10px" class="btn btn-primary" type="submit">Save</button>
+}

@@ -11,4 +11,21 @@
     <li>@Model.LocationURL</li>
     <li>@Model.BranchManager</li>
     <li>@Model.EmployeeCount</li>
+    <li>Total Employees: @Model.Employees.Count</li>
+    <ol>
+        @foreach(Employee employee in Model.Employees)
+        {
+            <li>
+                <ul style="list-style-type: none">
+                    <li>@employee.Name</li>
+                    <li>@employee.CivilId</li>
+                    <li>@employee.Position</li>
+                </ul>               
+            </li> 
+            
+        }
+    </ol>
 </ul>
+<a class="btn btn-primary" href="/Bank/AddEmployee/@Model.Id">Add Employee</a>
+@* <a class="btn btn-primary" asp-action="AddEmployee" asp-route-id="@Model.Id">Add Employee</a> *@
+
