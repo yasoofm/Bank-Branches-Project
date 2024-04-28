@@ -1,4 +1,6 @@
-﻿namespace Bank_Branches_Project.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Bank_Branches_Project.Models
 {
     public class NewBranchForm
     {

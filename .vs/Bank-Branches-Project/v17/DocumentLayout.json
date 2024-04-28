@@ -3,60 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|c:\\users\\ytman\\desktop\\asp .net\\bank-branches-project\\views\\bank\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|solutionrelative:views\\bank\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank_Branches_Project.csproj|c:\\users\\ytman\\desktop\\asp .net\\bank-branches-project\\models\\bankbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank_Branches_Project.csproj|solutionrelative:models\\bankbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|c:\\users\\ytman\\desktop\\asp .net\\bank-branches-project\\views\\bank\\addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|solutionrelative:views\\bank\\addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank_Branches_Project.csproj|c:\\users\\ytman\\desktop\\asp .net\\bank-branches-project\\views\\bank\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank_Branches_Project.csproj|solutionrelative:views\\bank\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|c:\\users\\ytman\\desktop\\asp .net\\bank-branches-project\\controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|solutionrelative:controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank_Branches_Project.csproj|c:\\users\\ytman\\desktop\\asp .net\\bank-branches-project\\views\\bank\\addbranch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank_Branches_Project.csproj|solutionrelative:views\\bank\\addbranch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|c:\\users\\ytman\\desktop\\asp .net\\bank-branches-project\\views\\bank\\addbranch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|solutionrelative:views\\bank\\addbranch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank_Branches_Project.csproj|C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\resources\\views\\bank\\addbranch.ar.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank_Branches_Project.csproj|solutionrelative:resources\\views\\bank\\addbranch.ar.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|c:\\users\\ytman\\desktop\\asp .net\\bank-branches-project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank_Branches_Project.csproj|c:\\users\\ytman\\desktop\\asp .net\\bank-branches-project\\controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank_Branches_Project.csproj|solutionrelative:controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|c:\\users\\ytman\\desktop\\asp .net\\bank-branches-project\\models\\bankcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|solutionrelative:models\\bankcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank_Branches_Project.csproj|C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\resources\\views\\bank\\index.ar.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank_Branches_Project.csproj|solutionrelative:resources\\views\\bank\\index.ar.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|c:\\users\\ytman\\desktop\\asp .net\\bank-branches-project\\views\\bank\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|solutionrelative:views\\bank\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|c:\\users\\ytman\\desktop\\asp .net\\bank-branches-project\\models\\bankbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|solutionrelative:models\\bankbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|c:\\users\\ytman\\desktop\\asp .net\\bank-branches-project\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|c:\\users\\ytman\\desktop\\asp .net\\bank-branches-project\\models\\addemployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|solutionrelative:models\\addemployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|c:\\users\\ytman\\desktop\\asp .net\\bank-branches-project\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|c:\\users\\ytman\\desktop\\asp .net\\bank-branches-project\\views\\bank\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|solutionrelative:views\\bank\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|c:\\users\\ytman\\desktop\\asp .net\\bank-branches-project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|c:\\users\\ytman\\desktop\\asp .net\\bank-branches-project\\models\\newbranchform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank-Branches-Project.csproj|solutionrelative:models\\newbranchform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank_Branches_Project.csproj|C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\resources\\views\\bank\\index.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{35CAC12E-5746-41FC-842A-EB2C52B97165}|Bank_Branches_Project.csproj|solutionrelative:resources\\views\\bank\\index.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,188 +38,90 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BankController.cs",
-              "DocumentMoniker": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Controllers\\BankController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BankController.cs",
-              "ToolTip": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Controllers\\BankController.cs",
-              "RelativeToolTip": "Controllers\\BankController.cs",
-              "ViewState": "AQIAAHoAAAAAAAAAAAAswIsAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T08:27:53.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T07:24:37.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-18T08:52:04.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddBranch.cshtml",
-              "DocumentMoniker": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Views\\Bank\\AddBranch.cshtml",
-              "RelativeDocumentMoniker": "Views\\Bank\\AddBranch.cshtml",
-              "ToolTip": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Views\\Bank\\AddBranch.cshtml",
-              "RelativeToolTip": "Views\\Bank\\AddBranch.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-18T08:38:39.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BankContext.cs",
-              "DocumentMoniker": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Models\\BankContext.cs",
-              "RelativeDocumentMoniker": "Models\\BankContext.cs",
-              "ToolTip": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Models\\BankContext.cs",
-              "RelativeToolTip": "Models\\BankContext.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T05:37:12.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Views\\Bank\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Bank\\Details.cshtml",
-              "ToolTip": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Views\\Bank\\Details.cshtml",
-              "RelativeToolTip": "Views\\Bank\\Details.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-18T09:14:27.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddEmployee.cshtml",
-              "DocumentMoniker": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Views\\Bank\\AddEmployee.cshtml",
-              "RelativeDocumentMoniker": "Views\\Bank\\AddEmployee.cshtml",
-              "ToolTip": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Views\\Bank\\AddEmployee.cshtml",
-              "RelativeToolTip": "Views\\Bank\\AddEmployee.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T07:02:53.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "BankBranch.cs",
               "DocumentMoniker": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Models\\BankBranch.cs",
               "RelativeDocumentMoniker": "Models\\BankBranch.cs",
               "ToolTip": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Models\\BankBranch.cs",
               "RelativeToolTip": "Models\\BankBranch.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T08:20:28.902Z",
+              "WhenOpened": "2024-04-25T05:50:08.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Models\\Employee.cs",
-              "RelativeToolTip": "Models\\Employee.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T06:50:14.516Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "AddBranch.ar.resx",
+              "DocumentMoniker": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Resources\\Views\\Bank\\AddBranch.ar.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Bank\\AddBranch.ar.resx",
+              "ToolTip": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Resources\\Views\\Bank\\AddBranch.ar.resx",
+              "RelativeToolTip": "Resources\\Views\\Bank\\AddBranch.ar.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-04-24T11:38:15.728Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "AddBranch.cshtml",
+              "DocumentMoniker": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Views\\Bank\\AddBranch.cshtml",
+              "RelativeDocumentMoniker": "Views\\Bank\\AddBranch.cshtml",
+              "ToolTip": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Views\\Bank\\AddBranch.cshtml",
+              "RelativeToolTip": "Views\\Bank\\AddBranch.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-24T11:33:48.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BankController.cs",
+              "DocumentMoniker": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Controllers\\BankController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BankController.cs",
+              "ToolTip": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Controllers\\BankController.cs",
+              "RelativeToolTip": "Controllers\\BankController.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAQwDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T10:47:40.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Views\\Bank\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Bank\\Index.cshtml",
               "ToolTip": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Views\\Bank\\Index.cshtml",
               "RelativeToolTip": "Views\\Bank\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAF0AAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-18T08:31:35.695Z",
+              "WhenOpened": "2024-04-24T08:33:27.805Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AddEmployeeForm.cs",
-              "DocumentMoniker": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Models\\AddEmployeeForm.cs",
-              "RelativeDocumentMoniker": "Models\\AddEmployeeForm.cs",
-              "ToolTip": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Models\\AddEmployeeForm.cs",
-              "RelativeToolTip": "Models\\AddEmployeeForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T07:03:25.749Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "Index.ar.resx",
+              "DocumentMoniker": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Resources\\Views\\Bank\\Index.ar.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Bank\\Index.ar.resx",
+              "ToolTip": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Resources\\Views\\Bank\\Index.ar.resx",
+              "RelativeToolTip": "Resources\\Views\\Bank\\Index.ar.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-04-24T08:33:01.959Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Views\\Bank\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Bank\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Views\\Bank\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Bank\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-21T06:05:18.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-21T10:25:19.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "NewBranchForm.cs",
-              "DocumentMoniker": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Models\\NewBranchForm.cs",
-              "RelativeDocumentMoniker": "Models\\NewBranchForm.cs",
-              "ToolTip": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Models\\NewBranchForm.cs",
-              "RelativeToolTip": "Models\\NewBranchForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T08:26:11.178Z"
+              "DocumentIndex": 6,
+              "Title": "Index.en.resx",
+              "DocumentMoniker": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Resources\\Views\\Bank\\Index.en.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Bank\\Index.en.resx",
+              "ToolTip": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\Resources\\Views\\Bank\\Index.en.resx",
+              "RelativeToolTip": "Resources\\Views\\Bank\\Index.en.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-04-24T08:32:40.777Z"
             }
           ]
         }

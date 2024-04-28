@@ -2,32 +2,42 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
+    List<BankBranch> branches = Model.BranchList;
+    List<int> employeesC = new List<int>();
+    List<string> branchNamesC = new List<string>();
+    foreach(var item in branches)
+    {
+        employeesC.Add(item.Employees.Count);
+        branchNamesC.Add(item.LocationName);
+    }
 }
-@model List<BankBranch>
+@model BankDashboardViewModel
+@inject IViewLocalizer local
+
 @using(Html.BeginForm("Index", "Bank", FormMethod.Get))
 {
     @Html.TextBox("Search")
-    <input type="submit" value="Search" />
+    <input type="submit" value="@local["Search"]" />
 }
 <table class="table rounded-corners" style="margin-top: 10px">
     <thead >
         <td>#</td>
-        <td>Name</td>
-        <td>Location</td>
-        <td>Manager</td>
-        <td>Employee Count</td>
+        <td>@local["Name"]</td>
+        <td>@local["Location"]</td>
+        <td>@local["Manager"]</td>
+        <td>@local["Employee Count"]</td>
         <td></td>
         <td></td>
     </thead>
     <tbody>
-        @foreach(BankBranch branch in Model)
+        @foreach(BankBranch branch in Model.BranchList)
         {
             <tr>
                 <td>@branch.Id</td>
                 <td><a href="/Bank/Details/@branch.Id">@branch.LocationName</a></td>
                 <td><a href="@branch.LocationURL">@branch.LocationURL</a></td>
                 <td>@branch.BranchManager</td>
-                <td>@branch.EmployeeCount</td>
+                <td>@branch.Employees.Count</td>
                 <td>
                     <button class="btn" style="border: 0" type="button" onclick="location.href = 'Bank/Edit/@branch.Id'">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
@@ -36,9 +46,85 @@
                         </svg>
                     </button>
                 </td>
-                <td><button class="btn btn-outline-danger" type="button" onclick="confirm('Are you sure you want to delete this branch?') ? location.href = '/Bank/Delete/@branch.Id' : false">Remove</button></td>
+                <td><button class="btn btn-outline-danger" type="button" onclick="confirm('Are you sure you want to delete this branch?') ? location.href = '/Bank/Delete/@branch.Id' : false">@local["Remove"]</button></td>
             </tr>
         }
     </tbody>
 </table>
-<button class="btn btn-primary" type="button" onclick="location.href = '@Url.Action("AddBranch", "Bank")'">Add Branch</button>
+
+<button class="btn btn-primary" style="margin-bottom: 10px;" type="button" onclick="location.href = '@Url.Action("AddBranch", "Bank")'">@local["Add Branch"]</button>
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">@local["Total Branches"]</h5>
+                <p class="card-text">@Model.TotalBranches</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">@local["Total Employees"]</h5>
+                <p class="card-text">@Model.TotalEmployees</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* <div style="width: 500px; height: 500px;"><canvas id="lineChart"></canvas></div>
+
+@{ChartJSCore.Models.Chart chart = (ChartJSCore.Models.Chart)ViewData["chart"]; }
+
+@section Scripts {
+    <script src="https://cdnjs.com/libraries/Chart.js"></script>
+    <script>
+        @Html.Raw(chart.CreateChartCode("lineChart"));
+    </script>
+} *@
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<div style="width: 80vw;"><canvas id="myChart"></canvas></div>
+<script>
+    var branchNames = @Html.Raw(Json.Serialize(branchNamesC));
+    var employees = @Html.Raw(Json.Serialize(employeesC));
+
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: branchNames,
+            datasets: [{
+                label: '# of Employees',
+                data: employees,
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)'
+                ],
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero: true
+                    }
+                }]
+            }
+        }
+    });
+</script>

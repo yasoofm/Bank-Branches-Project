@@ -4,28 +4,29 @@
 @{
 }
 @model NewBranchForm
+@inject IViewLocalizer local
 
 @using(Html.BeginForm("AddBranch", "Bank", FormMethod.Post))
 {
-    @Html.LabelFor(b => b.LocationName)
+    @Html.LabelFor(b => b.LocationName, local["Location Name"].Value)
     <br/>
     @Html.EditorFor(b => b.LocationName)
     @Html.ValidationMessageFor(b => b.LocationName)
     <br/>
-    @Html.LabelFor(b => b.LocationURL)
+    @Html.LabelFor(b => b.LocationURL, local["Location URL"].Value)
     <br/>
     @Html.EditorFor(b => b.LocationURL)
     @Html.ValidationMessageFor(b => b.LocationURL)
     <br/>
-    @Html.LabelFor(b => b.BranchManager)
+    @Html.LabelFor(b => b.BranchManager, local["Branch Manager"].Value)
     <br/>
     @Html.EditorFor(b => b.BranchManager)
     @Html.ValidationMessageFor(b => b.BranchManager)
     <br/>
-    @Html.LabelFor(b => b.EmployeeCount)
+    @Html.LabelFor(b => b.EmployeeCount, local["Employee Count"].Value)
     <br/>
     @Html.EditorFor(b => b.EmployeeCount)
     @Html.ValidationMessageFor(b => b.EmployeeCount)
     <br/>
-    <button class="btn btn-primary" style="margin-top: 10px" type="submit">save</button>
+    <button class="btn btn-primary" style="margin-top: 10px" type="submit">@local["Save"]</button>
 }

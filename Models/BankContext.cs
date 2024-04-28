@@ -7,10 +7,15 @@ namespace Bank_Branches_Project.Models
         public DbSet<BankBranch> BankBranches { get; set; }
         public DbSet<Employee> Employees { get; set; }
 
+        public BankContext(DbContextOptions<BankContext> options) : base(options) { }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source=asp.db");
-            base.OnConfiguring(optionsBuilder);
+            if(!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlite("Data Source=asp.db");
+                base.OnConfiguring(optionsBuilder);
+            }         
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

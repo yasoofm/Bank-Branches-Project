@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Bank-Branches-Project.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Bank-Branches-Project.bundle.scp.css"
+      "Id": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Bank_Branches_Project.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Bank_Branches_Project.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\ytman\\Desktop\\ASP .NET\\Bank-Branches-Project\\wwwroot\\css\\site.css",
@@ -245,20 +245,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Bank-Branches-Project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Bank_Branches_Project.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Bank-Branches-Project.props",
-      "PackagePath": "build\\Bank-Branches-Project.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Bank_Branches_Project.props",
+      "PackagePath": "build\\Bank_Branches_Project.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Bank-Branches-Project.props",
-      "PackagePath": "buildMultiTargeting\\Bank-Branches-Project.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Bank_Branches_Project.props",
+      "PackagePath": "buildMultiTargeting\\Bank_Branches_Project.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Bank-Branches-Project.props",
-      "PackagePath": "buildTransitive\\Bank-Branches-Project.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Bank_Branches_Project.props",
+      "PackagePath": "buildTransitive\\Bank_Branches_Project.props"
     }
   ],
   "ElementsToRemove": []

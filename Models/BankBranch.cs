@@ -1,8 +1,7 @@
 ﻿namespace Bank_Branches_Project.Models
 {
     public class BankBranch
-    {
-        
+    {     
         public int Id { get; set; }
         public string LocationName { get; set; }
         public string LocationURL { get; set; }
